@@ -19,6 +19,8 @@
 		D640488B1837138800F0FBC0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D64048731837138800F0FBC0 /* UIKit.framework */; };
 		D64048931837138800F0FBC0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D64048911837138800F0FBC0 /* InfoPlist.strings */; };
 		D64048951837138800F0FBC0 /* IcePhishingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D64048941837138800F0FBC0 /* IcePhishingTests.m */; };
+		D640489F183715C100F0FBC0 /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D640489E183715C100F0FBC0 /* main.storyboard */; };
+		D64048A11837171D00F0FBC0 /* ic_launcher.png in Resources */ = {isa = PBXBuildFile; fileRef = D64048A01837171D00F0FBC0 /* ic_launcher.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		D64048901837138800F0FBC0 /* IcePhishingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IcePhishingTests-Info.plist"; sourceTree = "<group>"; };
 		D64048921837138800F0FBC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D64048941837138800F0FBC0 /* IcePhishingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IcePhishingTests.m; sourceTree = "<group>"; };
+		D640489E183715C100F0FBC0 /* main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
+		D64048A01837171D00F0FBC0 /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,7 @@
 				D640487F1837138800F0FBC0 /* icemenAppDelegate.m */,
 				D64048811837138800F0FBC0 /* Images.xcassets */,
 				D64048761837138800F0FBC0 /* Supporting Files */,
+				D640489E183715C100F0FBC0 /* main.storyboard */,
 			);
 			path = IcePhishing;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 		D64048761837138800F0FBC0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D64048A01837171D00F0FBC0 /* ic_launcher.png */,
 				D64048771837138800F0FBC0 /* IcePhishing-Info.plist */,
 				D64048781837138800F0FBC0 /* InfoPlist.strings */,
 				D640487B1837138800F0FBC0 /* main.m */,
@@ -220,7 +226,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D640487A1837138800F0FBC0 /* InfoPlist.strings in Resources */,
+				D640489F183715C100F0FBC0 /* main.storyboard in Resources */,
 				D64048821837138800F0FBC0 /* Images.xcassets in Resources */,
+				D64048A11837171D00F0FBC0 /* ic_launcher.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
