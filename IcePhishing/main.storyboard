@@ -87,19 +87,17 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="zQJ-3W-fPa">
                         <nil key="title"/>
-                        <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="goi-sk-Xgu">
+                        <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" id="goi-sk-Xgu">
                             <rect key="frame" x="231" y="7" width="307" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <segments>
                                 <segment title="Trust"/>
                                 <segment title="Do Not Trust"/>
                             </segments>
-                        </segmentedControl>
-                        <barButtonItem key="rightBarButtonItem" title="Continue" id="hji-4q-u1c">
                             <connections>
-                                <segue destination="6Ob-JU-Byz" kind="push" id="R3Q-fA-8cK"/>
+                                <segue destination="6Ob-JU-Byz" kind="push" id="fkO-ow-9YT"/>
                             </connections>
-                        </barButtonItem>
+                        </segmentedControl>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
@@ -169,19 +167,17 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="Dar-hL-pTo">
                         <nil key="title"/>
-                        <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="VsL-al-cvA">
+                        <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" id="VsL-al-cvA">
                             <rect key="frame" x="231" y="7" width="307" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <segments>
                                 <segment title="Trust"/>
                                 <segment title="Do Not Trust"/>
                             </segments>
-                        </segmentedControl>
-                        <barButtonItem key="rightBarButtonItem" title="Continue" id="Rvr-zR-jXR">
                             <connections>
-                                <segue destination="0Sn-Zt-prr" kind="push" id="hT3-bl-huX"/>
+                                <segue destination="0Sn-Zt-prr" kind="push" id="29p-5c-QqX"/>
                             </connections>
-                        </barButtonItem>
+                        </segmentedControl>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
@@ -293,7 +289,7 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="JGB-nH-vKj"/>
-        <segue reference="hT3-bl-huX"/>
+        <segue reference="29p-5c-QqX"/>
         <segue reference="kA7-0F-RzK"/>
         <segue reference="dlL-VW-91r"/>
     </inferredMetricsTieBreakers>
